@@ -5,6 +5,7 @@ wget https://github.com/ipfs/go-ipfs/releases/download/v0.4.18/go-ipfs_v0.4.18_d
 tar -xvf go-ipfs_v0.4.18_darwin-386.tar.gz
 cd go-ipfs
 sudo ./install.sh
+ipfs init
 ipfs daemon --enable-pubsub-experiment &
 sudo npm i -g nativefier
 cd ~/Desktop/testShell
