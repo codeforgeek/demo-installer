@@ -1,7 +1,7 @@
 #! /bin/bash
 cd ~/Desktop
 mkdir testShell && cd testShell
-wget https://github.com/ipfs/go-ipfs/releases/download/v0.4.18/go-ipfs_v0.4.18_darwin-386.tar.gz
+wget https://github.com/ipfs/go-ipfs/releases/download/v0.4.18/go-ipfs_v0.4.18_darwin-amd64.tar.gz
 tar -xvf go-ipfs_v0.4.18_darwin-386.tar.gz
 cd go-ipfs
 sudo ./install.sh
