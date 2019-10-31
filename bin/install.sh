@@ -18,5 +18,5 @@ npm install -S
 node index.js &
 cd ~/Desktop/testShell
 nativefier --name "emailDesktopApp" http://localhost:3000
-cd emailDesktopApp-darwin-x64 
+cd ~/Desktop/testShell/emailDesktopApp-darwin-x64
 open -a emailDesktopApp.app
