@@ -7,6 +7,7 @@ cd go-ipfs
 sudo ./install.sh
 ipfs init
 ipfs daemon --enable-pubsub-experiment &
+redis-server &
 sudo npm i -g nativefier
 cd ~/Desktop/testShell
 git clone https://github.com/codeforgeek/decentralized-email/
